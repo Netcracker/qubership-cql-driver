@@ -9,7 +9,6 @@ COPY go.sum ./
 
 RUN go mod download
 RUN go mod tidy
-COPY . .
-
+COPY qubership-cql-driver/ ./qubership-cql-driver
 # Build
 RUN  go build ./qubership-cql-driver
