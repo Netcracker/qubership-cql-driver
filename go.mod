@@ -1,4 +1,4 @@
-module github.com/Netcracker/base/qubership-cql-driver
+module github.com/Netcracker/qubership-cql-driver
 
 go 1.22.5
 

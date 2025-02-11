@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	cql "github.com/Netcracker/base/qubership-cql-driver"
+	cql "github.com/Netcracker/qubership-cql-driver"
 	gocql "github.com/gocql/gocql"
 
 	mock "github.com/stretchr/testify/mock"
